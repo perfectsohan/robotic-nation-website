@@ -1,6 +1,6 @@
 import discord
 
-client = discord.Client()
+client = discord.Client(!)
 
 
 @client.event
@@ -16,4 +16,4 @@ async def on_message(message):
             await message.channel.send("Hello, I am a test bot.")
 
 
-client.run('YOUR_TOKEN')  # copy your token from the developer portal
+client.run('YOUR_TOKEN')  # NzE4ODY4MzYzMzg4MTI1MjE0.Xt9__Q.-0C2kB8zaWTO0HZtT_9eT7-H4qU
